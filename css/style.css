@@ -2194,6 +2194,12 @@ textarea.input {
     margin-top: 10px;
   }
   .header-logo .logo img {
-    width: 300px;
+    width: 260px;
+  }
+  .header-ctn>div>a>i {
+    font-size: 28px;
+  }
+  .header-ctn>div>a>span {
+    font-size: 14px;
   }
 }
