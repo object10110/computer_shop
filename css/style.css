@@ -517,11 +517,13 @@ textarea.input {
 
 .header-ctn>div>a>i {
   display: block;
-  font-size: 18px;
+  font-size: 36px;
+  color: black;
 }
 
 .header-ctn>div>a>span {
-  font-size: 12px;
+  font-size: 18px;
+  color: black;
 }
 
 .header-ctn>div>a>.qty {
@@ -1021,7 +1023,7 @@ textarea.input {
   right: 1px;
   bottom: 1px;
   padding: 15px;
-  background: #1e1f29;
+  background: #d0d0d0;
   text-align: center;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -2166,13 +2168,16 @@ textarea.input {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .section-title .section-nav {
     float: none;
     margin-top: 10px;
   }
   .section-tab-nav li {
     margin-top: 10px;
+  }
+  .header-logo {
+    float: left;
   }
 }
 
@@ -2187,5 +2192,8 @@ textarea.input {
   .store-pagination {
     float: none;
     margin-top: 10px;
+  }
+  .header-logo .logo img {
+    width: 300px;
   }
 }
