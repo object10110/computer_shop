@@ -446,7 +446,7 @@ textarea.input {
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #e4e7ed;
+  background-color: #1e1f29;
 }
 
 .header-logo {
@@ -455,7 +455,7 @@ textarea.input {
 
 .header-logo .logo img {
   display: block;
-  max-height: 95px;
+  width: 100%;
 }
 
 /*----------------------------*\
@@ -517,8 +517,8 @@ textarea.input {
 
 .header-ctn>div>a>i {
   display: block;
-  font-size: 36px;
-  color: black;
+  font-size: 60px;
+  color: white;
 }
 
 .header-ctn>div>a>span {
@@ -2192,6 +2192,9 @@ textarea.input {
   [class*='col-xs'] {
     width: 100%;
   }
+  .header-logo-col{
+    width: 60%;
+  }
   .store-grid {
     float: none;
     margin-top: 10px;
@@ -2199,14 +2202,5 @@ textarea.input {
   .store-pagination {
     float: none;
     margin-top: 10px;
-  }
-  .header-logo .logo img {
-    width: 260px;
-  }
-  .header-ctn>div>a>i {
-    font-size: 28px;
-  }
-  .header-ctn>div>a>span {
-    font-size: 14px;
   }
 }
