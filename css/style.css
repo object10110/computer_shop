@@ -659,6 +659,9 @@ textarea.input {
 .header-ctn li.nav-toggle {
   display: none;
 }
+ul.main-nav.nav.navbar-nav {
+  font-size: 16px;
+}
 
 /*----------------------------*\
 	responsive nav
@@ -2058,6 +2061,13 @@ textarea.input {
   color: #15161D;
   font-size: 36px;
   display: block;
+}
+a.footer-title-link {
+  font-size: 16px;
+  color: red;
+}
+a.footer-title-link:hover {
+  color: white;
 }
 
 /*=========================================================
