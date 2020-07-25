@@ -443,7 +443,7 @@ textarea.input {
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #1e1f29;
+  background-color: #15161d;
 }
 
 .header-logo {
@@ -2047,7 +2047,6 @@ ul.main-nav.nav.navbar-nav {
 }
 
 .copyright {
-  margin-top: 30px;
   display: block;
   font-size: 12px;
 }
