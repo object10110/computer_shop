@@ -1,7 +1,4 @@
 /*
-Template Name: Electro - HTML Ecommerce Template
-Author: yaminncco
-
 Colors:
 	Body 		: #333
 	Headers 	: #2B2D42
@@ -419,7 +416,7 @@ textarea.input {
 .header-links li {
   display: inline-block;
   margin-right: 15px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .header-links li:last-child {
@@ -2135,6 +2132,31 @@ textarea.input {
 .custom-dots .slick-dots {
   position: static;
   margin: 15px 0px;
+}
+
+.description-title{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dcd9d9;
+  margin-bottom: 25px;
+}
+.about-description{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+span.subtitle{
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.about-ol{
+  list-style: decimal;
+  margin-left: 10%;
+}
+.about-ol>li{
+  margin-top: 5px;
 }
 
 /*=========================================================
