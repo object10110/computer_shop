@@ -871,6 +871,8 @@ ul.main-nav.nav.navbar-nav {
 
 .product .product-img {
   position: relative;
+  background-color: white;
+  z-index: 20;
 }
 
 .product .product-img>img {
@@ -1019,24 +1021,25 @@ ul.main-nav.nav.navbar-nav {
 
 .product .add-to-cart {
   position: absolute;
-  left: 1px;
-  right: 1px;
   bottom: 1px;
   padding: 15px;
-  background: #d0d0d0;
+  background: #1e1f29;
   text-align: center;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%);
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  z-index: 2;
+  z-index: -1;
+  border-bottom: 2px solid #d10024;
+  color: white;
 }
 
 .product:hover .add-to-cart {
   -webkit-transform: translateY(100%);
   -ms-transform: translateY(100%);
   transform: translateY(100%);
+  z-index: 21;
 }
 
 .product .add-to-cart .add-to-cart-btn {
@@ -2168,6 +2171,9 @@ span.subtitle{
   margin-top: 5px;
 }
 
+.add-to-cart b {
+  color: #d10024;
+}
 /*=========================================================
 	13 -> RESPONSIVE
 ===========================================================*/
