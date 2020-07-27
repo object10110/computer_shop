@@ -2248,6 +2248,9 @@ ul.repair-ul {
 .repair .collapse-title{
   white-space: normal;
 }
+.repair .service.right-border-none{
+  width: 100%;
+}
 /*=========================================================
 	13 -> RESPONSIVE
 ===========================================================*/
