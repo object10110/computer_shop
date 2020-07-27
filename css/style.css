@@ -2175,6 +2175,80 @@ span.subtitle{
   color: #d10024;
 }
 /*=========================================================
+	Repair
+===========================================================*/
+.card.repair {
+  border-bottom: 1px solid #f7f2f2;
+  margin-top: 5px;
+}
+.card.repair .card-header {
+  background: #1e1f29;
+  border-radius: 5px 5px 5px 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.repair button.btn.btn-link {
+  color: #d10024;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+}
+.repair button.btn.btn-link:hover {
+  color: white;
+}
+.repair button.btn.btn-link:focus {
+  outline:0;
+}
+.repair .card-body{
+  padding: 8px 8px 0px 8px;
+  background-color: #f7f7f7;
+  border-bottom: 10px solid #1e1f29;
+  border-radius: 5px;
+}
+.repair .repair-title {
+  font-size: 16px;
+  font-weight: bold;
+/*  margin-right: -8px;
+  margin-left: -8px;*/
+}
+.repair .service-price {
+  padding: 8px;
+  text-align: center;
+}
+
+.service-row {
+  border-top: 1px solid #e6e6e6;
+  margin-right: -8px;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+}
+
+.repair .service {
+  border-right: 1px solid #e6e6e6;
+  padding: 16px 8px;
+}
+
+.repair .description {
+  font-size: 12px;
+  font-style: italic;
+  margin: 4px 4px 0px 4px;
+}
+ul.repair-ul {
+  list-style: inside;
+  margin-left: 15px;
+}
+.repair .service.right-border-none{
+  border-right: none;
+}
+.repair-bottom-info {
+  padding: 20px;
+}
+.repair .collapse-title{
+  white-space: normal;
+}
+/*=========================================================
 	13 -> RESPONSIVE
 ===========================================================*/
 
@@ -2223,9 +2297,35 @@ span.subtitle{
   .header-logo {
     float: left;
   }
+  .service-price{
+    width: 25%;
+  }
+  .service-row .service{
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  .repair .card-body{
+    padding-right: 1px;
+    padding-left: 12px;
+  }
+  .repair-container{
+    padding: 1px;
+  }
+  .repair .card-body{
+    font-size: 14px;
+  }
+  .repair .repair-title{
+    font-size: 14px;
+  }
+  .card.repair .card-header {
+    display: flex;
+    justify-content: center;
+  }
+  .repair button.btn.btn-link {
+    font-weight: bold;
+  }
   [class*='col-xs'] {
     width: 100%;
   }
@@ -2239,5 +2339,11 @@ span.subtitle{
   .store-pagination {
     float: none;
     margin-top: 10px;
+  }
+  .service-price{
+    width: 30%;
+  }
+  .service-row .service{
+    width: 70%;
   }
 }
