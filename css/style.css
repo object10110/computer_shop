@@ -1477,7 +1477,9 @@ ul.main-nav.nav.navbar-nav {
 /*----------------------------*\
 	Product details
 \*----------------------------*/
-
+h3.product-name {
+  height: 40px;
+}
 .product-details .product-name {
   text-transform: uppercase;
   font-size: 18px;
