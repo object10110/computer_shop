@@ -1162,11 +1162,10 @@ ul.main-nav.nav.navbar-nav {
 \*----------------------------*/
 
 .products-slick .slick-list {
-  padding-bottom: 60px;
-  margin-bottom: -60px;
+  padding-bottom: 200px;
+  margin-bottom: -200px;
   z-index: 2;
 }
-
 .products-slick .product.slick-slide {
   margin: 15px;
 }
@@ -1176,7 +1175,7 @@ ul.main-nav.nav.navbar-nav {
   height: 0;
   opacity: 0;
   visibility: hidden;
-  overflow-y: hidden;
+  overflow-y: visible;
   padding-bottom: 60px;
   margin-bottom: -60px;
 }
@@ -1206,6 +1205,11 @@ ul.main-nav.nav.navbar-nav {
 
 .products-slick-nav .slick-prev:before, .products-slick-nav .slick-next:before {
   font-size: 14px;
+}
+
+.products-tabs {
+  margin-bottom: 60px;
+  margin-top: 25px;
 }
 
 /*=========================================================
@@ -2020,7 +2024,7 @@ ul.main-nav.nav.navbar-nav {
 }
 
 .footer {
-  margin: 30px 0px;
+  margin: 40px 0px;
 }
 
 .footer .footer-title {
