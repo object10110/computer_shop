@@ -2267,6 +2267,20 @@ ul.repair-ul {
   padding: 5px;
 }
 /*=========================================================
+	message-box
+===========================================================*/
+.col-xs-1.message_box-icon {
+  width: 5%;
+  padding-right: 0;
+}
+.col-xs-11.message {
+  width: 95%;
+  padding-left: 0;
+}
+.message-box.message-box-store.row {
+  font-size: 18px;
+}
+/*=========================================================
 	CONTACT
 ===========================================================*/
 .contact-item {
@@ -2338,6 +2352,12 @@ ul.repair-ul {
   .service-row .service{
     width: 75%;
   }
+  .col-xs-1.message_box-icon {
+    width: 7%;
+  }
+  .col-xs-11.message {
+    width: 93%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2380,5 +2400,11 @@ ul.repair-ul {
   }
   .service-row .service{
     width: 70%;
+  }
+  .col-xs-1.message_box-icon {
+    width: 11%;
+  }
+  .col-xs-11.message {
+    width: 89%;
   }
 }
