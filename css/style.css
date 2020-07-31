@@ -441,8 +441,8 @@ textarea.input {
 \*----------------------------*/
 
 #header {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 0px;
   background-color: #15161d;
 }
 
@@ -493,7 +493,7 @@ textarea.input {
 
 .header-ctn {
   float: right;
-  padding: 15px 0px;
+  padding: 5px 0px;
 }
 
 .header-ctn>div {
