@@ -1033,6 +1033,7 @@ ul.main-nav.nav.navbar-nav {
   z-index: -1;
   border-bottom: 2px solid #d10024;
   color: white;
+  visibility: hidden;
 }
 
 .product:hover .add-to-cart {
@@ -1040,6 +1041,7 @@ ul.main-nav.nav.navbar-nav {
   -ms-transform: translateY(100%);
   transform: translateY(100%);
   z-index: 21;
+  visibility: visible;
 }
 
 .product .add-to-cart .add-to-cart-btn {
@@ -1479,7 +1481,7 @@ ul.main-nav.nav.navbar-nav {
 \*----------------------------*/
 h3.product-name {
   overflow-wrap: break-word;
-  height: 70px;
+  height: 75px;
 }
 .product-details .product-name {
   text-transform: uppercase;
