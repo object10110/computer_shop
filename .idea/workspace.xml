@@ -31,7 +31,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595407576624</updated>
-      <workItem from="1595407580364" duration="9116000" />
+      <workItem from="1595407580364" duration="17834000" />
+      <workItem from="1595508862527" duration="9100000" />
+      <workItem from="1595591157385" duration="5180000" />
+      <workItem from="1595665925129" duration="30034000" />
+      <workItem from="1595831094184" duration="12590000" />
+      <workItem from="1595877512888" duration="2231000" />
+      <workItem from="1595923106073" duration="5163000" />
+      <workItem from="1595961068577" duration="2571000" />
+      <workItem from="1596007584981" duration="9996000" />
+      <workItem from="1596033279926" duration="7132000" />
+      <workItem from="1596047490738" duration="6330000" />
+      <workItem from="1596126232306" duration="1324000" />
+      <workItem from="1596184726639" duration="1601000" />
+      <workItem from="1596212053838" duration="1277000" />
+      <workItem from="1596227883711" duration="3521000" />
+      <workItem from="1596292912862" duration="571000" />
+      <workItem from="1596351135062" duration="9786000" />
+      <workItem from="1596396312989" duration="4870000" />
+      <workItem from="1596401938279" duration="343000" />
+      <workItem from="1596434948067" duration="4296000" />
+      <workItem from="1596541684597" duration="13539000" />
+      <workItem from="1596743601696" duration="3253000" />
+      <workItem from="1596797156565" duration="31000" />
+      <workItem from="1596806895258" duration="2759000" />
+      <workItem from="1596825815354" duration="12000" />
+      <workItem from="1596873251530" duration="174000" />
+      <workItem from="1597068915449" duration="2036000" />
+      <workItem from="1597128193454" duration="61000" />
+      <workItem from="1597161921632" duration="3000" />
+      <workItem from="1597667111473" duration="645000" />
+      <workItem from="1597674827121" duration="1278000" />
+      <workItem from="1597731243025" duration="641000" />
+      <workItem from="1597838053342" duration="138000" />
+      <workItem from="1599218399969" duration="3000" />
+      <workItem from="1599470227130" duration="2000" />
+      <workItem from="1606158641869" duration="582000" />
     </task>
     <servers />
   </component>
@@ -39,9 +74,20 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595407581601">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606158641551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595407581601" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606158641551" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pc.html</url>
+          <line>1662</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
